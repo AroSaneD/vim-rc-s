@@ -1,4 +1,19 @@
+no <down> <Nop>
+no <up> <Nop>
+no <left> <Nop>
+no <right> <Nop>
+
+ino <down> <Nop>
+ino <up> <Nop>
+ino <left> <Nop>
+ino <right> <Nop>
+
+color pablo
+
 no ; :
 
-ino ( ()<ESC>h
-ino { {<Enter><Enter>}<ESC>ki<TAB>
+ino { {<Enter>}<Esc>O<Tab>
+ino ( ()<Esc>ha
+ino ' ''<Esc>ha
+ino " ""<Esc>ha
+ino [ []<Esc>ha
